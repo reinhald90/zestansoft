@@ -9,7 +9,7 @@ export const CONFIG = {
     bot: 'https://t.me/treezestan_bot',
     channel: 'https://t.me/TreeZestan',
     owner: 'https://t.me/AzureLycount',
-    github: 'https://github.com/zestansoft',
+    github: 'https://github.com/reinhald90',
     panel: process.env.NEXT_PUBLIC_PANEL_URL || 'https://alfa-store-officials.alfamarket2.my.id',
   },
   api: {
