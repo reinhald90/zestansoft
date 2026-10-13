@@ -1,3 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { poweredByHeader: false, images: { remotePatterns: [] } };
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      { protocol: 'https', hostname: 't.me' },
+      { protocol: 'https', hostname: 'telegram.org' },
+    ],
+  },
+};
+
 module.exports = nextConfig;
